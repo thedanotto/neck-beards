@@ -1,5 +1,12 @@
 # Neck beards
 
+[![Circle
+CI](https://circleci.com/gh/antwonlee/neck_beards.svg?style=svg)](https://circleci.com/gh/antwonlee/neck_beards)
+
+Application Specifications:
+https://forum.upcase.com/t/upcase-code-contest-round-2-specifications/5499
+
+
 ## Getting Started
 
 After you have cloned this repo, run this setup script to set up your machine
