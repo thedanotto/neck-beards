@@ -1,10 +1,8 @@
 # Neck beards
 
-[![Circle
-CI](https://circleci.com/gh/antwonlee/neck_beards.svg?style=svg)](https://circleci.com/gh/antwonlee/neck_beards)
+[![Circle CI](https://circleci.com/gh/antwonlee/neck-beards.svg?style=svg)](https://circleci.com/gh/antwonlee/neck-beards)
 
-[![Join the chat at
-https://gitter.im/antwonlee/neck_beards](https://badges.gitter.im/antwonlee/neck_beards.svg)](https://gitter.im/antwonlee/neck_beards?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/antwonlee/neck_beards](https://badges.gitter.im/antwonlee/neck_beards.svg)](https://gitter.im/antwonlee/neck_beards?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Application Specifications:
 https://forum.upcase.com/t/upcase-code-contest-round-2-specifications/5499
