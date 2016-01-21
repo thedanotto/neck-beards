@@ -7,6 +7,8 @@
 Application Specifications:
 https://forum.upcase.com/t/upcase-code-contest-round-2-specifications/5499
 
+Project Trello Board:
+https://trello.com/b/KSsHuYmL/neck-beards
 
 ## Getting Started
 
