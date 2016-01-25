@@ -1,5 +1,5 @@
 class Photo < ActiveRecord::Base
-  belongs_to :user
+  # belongs_to :user
 
-  validates_presence_of :url
+  # validates_presence_of :url
 end
