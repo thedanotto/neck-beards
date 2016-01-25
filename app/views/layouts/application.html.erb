@@ -9,12 +9,13 @@
     config/locales/en.yml. For more see:
     https://github.com/calebthompson/title#usage
   %>
-  <title><%= title %></title>
+  <title>Neck Beards</title>
   <%= stylesheet_link_tag :application, media: "all" %>
   <%= csrf_meta_tags %>
 </head>
 <body class="<%= body_class %>">
   <%= render "flashes" -%>
+
   <div>
     <% if signed_in? %>
       <%= link_to 'Sign out', session_path, method: :delete %>
@@ -23,7 +24,9 @@
       <%= link_to 'Sign up', new_user_path %>
     <% end %>
   </div>
+
   <%= yield %>
+  
   <%= render "javascript" %>
 </body>
 </html>

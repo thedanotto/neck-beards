@@ -32,16 +32,6 @@ ActiveRecord::Schema.define(version: 20160125142834) do
 
   add_index "delayed_jobs", ["priority", "run_at"], name: "delayed_jobs_priority", using: :btree
 
-  create_table "photos", force: :cascade do |t|
-    t.integer  "user_id",    null: false
-    t.string   "url",        null: false
-    t.string   "caption"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  add_index "photos", ["user_id"], name: "index_photos_on_user_id", using: :btree
-
   create_table "timelines", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
