@@ -17,3 +17,8 @@ en:
 
   titles:
     application: Neck beards
+
+  activerecord:
+    attributes:
+      user:
+        password_digest: "Password"

@@ -2,9 +2,9 @@ require "rails_helper"
 
 feature "Add new photo" do
   scenario "a user adds a photo" do
-    user = create_logged_in_user
-
-    visit new_photo_path(as: user)
+    user = create(:user)
+    sign_in(user)
+    visit new_photo_path
     fill_in "Url", with: "http://i.imgur.com/FUsyxR5.jpg"
     fill_in "Caption", with: "A beautiful scene"
     click_button "Add photo"
