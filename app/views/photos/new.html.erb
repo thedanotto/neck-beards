@@ -1,6 +1,2 @@
 <h1>Add a new photo</h1>
-<% if signed_in? %>
-  <%= render partial: "form", locals: { photo: @photo } %>
-<% else %>
-  You need to sign in or sign up
-<% end %>
+<%= render partial: "form", locals: { photo: @photo } %>

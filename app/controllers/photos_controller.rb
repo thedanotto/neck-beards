@@ -1,5 +1,5 @@
 class PhotosController < ApplicationController
-  # before_action :authenticate_user!, except: [:show]
+  before_filter :require_login
 
   def show
     @photo = find_photo
