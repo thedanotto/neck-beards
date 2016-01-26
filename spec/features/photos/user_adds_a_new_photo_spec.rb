@@ -16,6 +16,6 @@ feature "Add new photo" do
   scenario "guest tries to add a photo" do
     visit new_photo_path
 
-    expect(page).to have_content("You need to sign in or sign up")
+    expect(page).to have_content("You must be signed in")
   end
 end
