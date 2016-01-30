@@ -16,6 +16,10 @@ class UsersController < ApplicationController
     end
   end
 
+  def search
+    @users = User.search(search_params[:username])
+  end
+
   private
 
   def user_params
@@ -26,5 +30,9 @@ class UsersController < ApplicationController
       :password,
       :bio
     )
+  end
+
+  def search_params
+    params.require(:search).permit(:username)
   end
 end
