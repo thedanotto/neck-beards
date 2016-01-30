@@ -18,6 +18,7 @@ RSpec.configure do |config|
   config.infer_base_class_for_anonymous_controllers = false
   config.infer_spec_type_from_file_location!
   config.use_transactional_fixtures = false
+  config.include FactoryGirl::Syntax::Methods
 end
 
 ActiveRecord::Migration.maintain_test_schema!
@@ -28,5 +29,12 @@ RSpec.configure do |config|
   config.include Monban::Test::Helpers, type: :feature
   config.after :each do
     Monban.test_reset!
+  end
+end
+
+Shoulda::Matchers.configure do |config|
+  config.integrate do |with|
+    with.test_framework :rspec
+    with.library :rails
   end
 end
