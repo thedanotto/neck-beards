@@ -9,6 +9,5 @@ class CreatePhotos < ActiveRecord::Migration
     end
 
     add_index :photos, :user_id
-    add_foreign_key :photos, :users, name: "fk_users_photo"
   end
 end
